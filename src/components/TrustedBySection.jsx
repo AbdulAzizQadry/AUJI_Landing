@@ -1,5 +1,3 @@
-import React from 'react';
-
 const logos = [
   { name: 'جامعة القاهرة', color: 'bg-purple-100', text: 'text-purple-600' },
   { name: 'مبادرة الشباب', color: 'bg-pink-100', text: 'text-pink-600' },

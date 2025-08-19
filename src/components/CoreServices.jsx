@@ -1,5 +1,4 @@
 import { FileText, Search, Rocket } from 'lucide-react';
-import React from 'react';
 
 const CoreServices = () => {
   const services = [

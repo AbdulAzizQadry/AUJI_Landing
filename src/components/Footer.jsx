@@ -1,5 +1,4 @@
-import React from 'react';
-import { Mail, Twitter, Github, Linkedin } from 'lucide-react';
+import { Twitter, Github, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -37,13 +36,13 @@ const Footer = () => {
             English
             </button>
           <div className="flex gap-4 ml-auto">
-            <a href="#" className="hover:text-blue-600 transition">
+            <a href="/" className="hover:text-blue-600 transition">
               <Twitter size={20} />
             </a>
-            <a href="#" className="hover:text-blue-600 transition">
+            <a href="/" className="hover:text-blue-600 transition">
               <Github size={20} />
             </a>
-            <a href="#" className="hover:text-blue-600 transition">
+            <a href="/" className="hover:text-blue-600 transition">
               <Linkedin size={20} />
             </a>
           </div>
