@@ -23,7 +23,7 @@ const Register = () => {
     setMessage("");
     setIsSuccess(null);
 
-    const res = await fetch("http://localhost:5000/send-code", {
+    const res = await fetch("https://abdulazizqadry.pythonanywhere.com/send-code", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email: form.email }),
@@ -42,7 +42,7 @@ const Register = () => {
 
   const verifyCode = async () => {
     setMessage("");
-    const res = await fetch("http://localhost:5000/verify-code", {
+    const res = await fetch("https://abdulazizqadry.pythonanywhere.com/verify-code", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email: form.email, code: verificationCode }),
@@ -70,7 +70,7 @@ const Register = () => {
     setMessage("");
     setIsSuccess(null);
 
-    const res = await fetch("http://localhost:5000/register", {
+    const res = await fetch("https://abdulazizqadry.pythonanywhere.com/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form),
